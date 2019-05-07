@@ -1,0 +1,25 @@
+#displayBoard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 10px solid black;
+    height: 900px;
+    width: 900px;
+    margin: auto;
+
+}
+
+#displaySquare {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    height: 290px;
+    width: 290px;
+    background: gray;
+    border: 5px dashed black;
+}
